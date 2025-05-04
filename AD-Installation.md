@@ -12,3 +12,5 @@ Get-NetFirewallProfile | Format-Table Name, Enabled
 
 ### disable all 3 profiles
 Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False
+
+> https://www.alitajran.com/disable-windows-firewall-with-powershell/
