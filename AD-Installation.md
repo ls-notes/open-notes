@@ -1,6 +1,7 @@
 ## install the adds role
+```Powershell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-
+```
 ## configure the domain and forest
 Install-ADDSForest -DomainName {YOURDOMAINHERE} -InstallDNS
 
