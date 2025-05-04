@@ -18,3 +18,11 @@ Get-NetFirewallProfile | Format-Table Name, Enabled
 Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False
 ```
 > https://www.alitajran.com/disable-windows-firewall-with-powershell/
+
+## check if windows machines is domain joined
+### Method 1
+(Get-WmiObject Win32_ComputerSystem).PartOfDomain
+
+### Method 2
+
+### Method 3
